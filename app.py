@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Your public API URL
-API_URL = "https://c0be-34-16-241-63.ngrok-free.app/generate"
+API_URL = "https://3166-34-16-195-79.ngrok-free.app/generate"
 
 # Streamlit page config
 st.set_page_config(page_title="Chat with AmirGPT", page_icon="🤖")
