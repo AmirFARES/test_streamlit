@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Hugging Face Inference API URL
-API_URL = "https://api-inference.huggingface.co/models/your-model-id"  # e.g., "ajithabhaskar/jais-small"
+API_URL = "https://0228-34-125-224-246.ngrok-free.app/generate"
 HF_API_TOKEN = "your_huggingface_token"  # Optional: leave "" if model is public
 
 # Streamlit page config
