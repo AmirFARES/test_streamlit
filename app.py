@@ -7,7 +7,7 @@ HF_API_TOKEN = "your_huggingface_token"  # Optional: leave "" if model is public
 
 # Streamlit page config
 st.set_page_config(page_title="الدردشة مع نموذج جيس", page_icon="🤖")
-st.title("💬 الدردشة مع نموذج جيس")
+st.title(f"💬 الدردشة مع نموذج جيس {st.secrets["test_key"]}")
 
 # Arabic system prompt (Customer Support style)
 SYSTEM_PROMPT = """
